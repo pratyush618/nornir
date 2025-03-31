@@ -56,7 +56,7 @@ del queue
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/nornir.git
+git clone https://github.com/pratyush618/nornir.git
 cd nornir
 ```
 
@@ -91,7 +91,7 @@ For more information about Maturin, visit [Maturin's documentation](https://www.
 
 Run the test suite:
 ```bash
-python test.py
+python tests/test.py
 ```
 
 ## Contributing
