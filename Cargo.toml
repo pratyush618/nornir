@@ -1,0 +1,16 @@
+[package]
+name = "nornir"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "nornir"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.18.0", features = ["extension-module"] }
+crossbeam-channel = "0.5"
+num_cpus = "1.15"
+
+[package.metadata.maturin]
+python-source = "src"
